@@ -9,6 +9,8 @@ builder.RootComponents.Add<HeadOutlet>("head::after");
 
 builder.Services.AddSingleton<WeatherForecastService>();
 
+builder.Services.AddSingleton<ExampleJsInterop>();
+
 builder.Services.AddOidcAuthentication(options =>
 {
     // Configure your authentication provider options here.
