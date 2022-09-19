@@ -5,6 +5,8 @@ VisualStudioVersion = 17.4.32912.340
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BlazorApp", "BlazorApp\BlazorApp.csproj", "{FAF27FE1-C0B5-46BC-A265-227F22B8EFFC}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlazorMauiApp", "BlazorMauiApp\BlazorMauiApp.csproj", "{5BA4E0BB-78AD-46DE-BD32-76F1960F2AF6}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,12 @@ Global
 		{FAF27FE1-C0B5-46BC-A265-227F22B8EFFC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FAF27FE1-C0B5-46BC-A265-227F22B8EFFC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FAF27FE1-C0B5-46BC-A265-227F22B8EFFC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5BA4E0BB-78AD-46DE-BD32-76F1960F2AF6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5BA4E0BB-78AD-46DE-BD32-76F1960F2AF6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5BA4E0BB-78AD-46DE-BD32-76F1960F2AF6}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{5BA4E0BB-78AD-46DE-BD32-76F1960F2AF6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5BA4E0BB-78AD-46DE-BD32-76F1960F2AF6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5BA4E0BB-78AD-46DE-BD32-76F1960F2AF6}.Release|Any CPU.Deploy.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
