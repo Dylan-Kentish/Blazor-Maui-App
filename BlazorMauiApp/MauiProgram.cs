@@ -1,6 +1,8 @@
 ﻿using Microsoft.AspNetCore.Components.Web;
 using Microsoft.AspNetCore.Components.WebView.Maui;
 using Microsoft.Extensions.Configuration;
+using Microsoft.Extensions.DependencyInjection;
+using RazorClassLibrary1.Data;
 
 namespace BlazorMauiApp
 {
@@ -18,8 +20,10 @@ namespace BlazorMauiApp
 
             builder.Services.AddMauiBlazorWebView();
 #if DEBUG
-		    builder.Services.AddBlazorWebViewDeveloperTools();
+            builder.Services.AddBlazorWebViewDeveloperTools();
 #endif
+
+            builder.Services.AddSingleton<WeatherForecastService>();
 
             builder.Services.AddOidcAuthentication(options =>
             {
